@@ -1,0 +1,34 @@
+//
+// Services.scss
+//
+
+.services-box {
+  padding: 25px 20px;
+  .services-icon {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: $primary;
+    i {
+      font-size: 35px;
+      color: $white;
+      line-height: 70px;
+    }
+    
+  }
+  &:hover {
+    .services-icon {
+      background-color: rgba($primary, 0.1);
+      transition: all 0.5s;
+      i {
+        color: $primary;
+      }
+      &:before {
+        left: 0px;
+        top: 0px;
+      }
+    }
+  }
+}

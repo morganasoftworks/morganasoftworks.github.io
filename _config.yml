@@ -1,0 +1,16 @@
+title: Morgana Softworks
+#author:
+#  name: Derrek Bertrand
+#  email: hello@derrekbertrand.com
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Morgana Softworks is a software engineering and consulting firm.
+tagline: Software Engineering and Consulting
+url: "https://www.morganasoftworks.com"
+
+# Build settings
+
+plugins:
+  - jekyll-seo-tag
